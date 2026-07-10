@@ -1,0 +1,29 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+    
+    <sys:String x:Key="TitleFFmpegMissing">FFmpeg Missing</sys:String>
+    <sys:String x:Key="MsgFFmpegMissing">FFmpeg could not be found on this system. It is required for Nova Audio Converter.\n\nHow would you like to install FFmpeg?</sys:String>
+    <sys:String x:Key="BtnWinget">Download (winget)</sys:String>
+    <sys:String x:Key="BtnZip">Download (zip)</sys:String>
+    <sys:String x:Key="BtnOkay">Okay</sys:String>
+
+    <sys:String x:Key="HeaderVideo">1. Select Video File</sys:String>
+    <sys:String x:Key="BtnBrowse">Browse...</sys:String>
+    <sys:String x:Key="HeaderAudio">2. Audio Configuration</sys:String>
+    <sys:String x:Key="LblCodec">Audio Codec:</sys:String>
+    <sys:String x:Key="LblBitrate">Bitrate:</sys:String>
+    <sys:String x:Key="LblSampleRate">Sample Rate (Hz):</sys:String>
+    <sys:String x:Key="BtnStart">Start Optimization</sys:String>
+
+    <sys:String x:Key="MsgErrorNoVideo">Please select a valid video file first.</sys:String>
+    <sys:String x:Key="MsgTitleError">Error</sys:String>
+    <sys:String x:Key="MsgLogStart">Starting conversion...\nTarget file: </sys:String>
+    <sys:String x:Key="MsgDone">Conversion completed successfully!</sys:String>
+    <sys:String x:Key="MsgTitleDone">Done</sys:String>
+    <sys:String x:Key="MsgFfmpegError">FFmpeg returned an error. Check the logs for details.</sys:String>
+    <sys:String x:Key="MsgUnexpectedError">An error occurred:\n</sys:String>
+    <sys:String x:Key="MsgResourceLoadError">Cannot load the language '{0}' due to an XML syntax error:\n\n{1}</sys:String>
+    <sys:String x:Key="FileDialogFilter">Video files|*.mkv;*.mp4;*.webm;*.av1|All files|*.*</sys:String>
+    <sys:String x:Key="SuffixOptimized">_optimized</sys:String>
+</ResourceDictionary>
